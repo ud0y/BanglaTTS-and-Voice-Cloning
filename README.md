@@ -1,0 +1,1 @@
+This repo contains training files and commands
