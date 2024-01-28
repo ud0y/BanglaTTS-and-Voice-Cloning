@@ -2,10 +2,10 @@ This repo contains training files and commands
 
 The models I want to train:
 
-    1. VITS (with and without phoneme)
-    2. GlowTTS + HiFiGAN++ (with and without phoneme)
-    3. Tacotron 2 (with and without phoneme)
-    4. FastSpeech (with and without phoneme)
+1. VITS (with and without phoneme)
+2. GlowTTS + HiFiGAN++ (with and without phoneme)
+3. Tacotron 2 (with and without phoneme)
+4. FastSpeech (with and without phoneme)
 
 To get started follow below instructions,
 
