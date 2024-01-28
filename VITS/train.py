@@ -63,7 +63,7 @@ parser.add_argument(
     action="store",
     default="",
     dest="output_path",
-    help='Set directory to load meta data, e.g., "saved_model"',
+    help='Set directory to save others, e.g., "cache"',
 )
 
 # configuration
@@ -72,7 +72,7 @@ parser.add_argument(
     action="store",
     default=22050,
     dest="sample_rate",
-    help="Set directory to load meta data, e.g., 16000",
+    help="Set sample rate, e.g., 16000",
 )
 
 parser.add_argument(
@@ -80,7 +80,7 @@ parser.add_argument(
     action="store",
     default=1024,
     dest="win_length",
-    help="Set directory to load meta data, e.g., 1000",
+    help="Set window length, e.g., 1000",
 )
 
 parser.add_argument(
@@ -88,7 +88,7 @@ parser.add_argument(
     action="store",
     default=256,
     dest="hop_length",
-    help="Set directory to load meta data, e.g., 128",
+    help="Set hop length, e.g., 128",
 )
 
 parser.add_argument(
@@ -96,7 +96,7 @@ parser.add_argument(
     action="store",
     default=80,
     dest="num_mels",
-    help="Set directory to load meta data, e.g., 100",
+    help="Set number of melspectrogram, e.g., 100",
 )
 
 parser.add_argument(
@@ -104,7 +104,7 @@ parser.add_argument(
     action="store",
     default=0,
     dest="mel_fmin",
-    help="Set directory to load meta data, e.g., 1",
+    help="Set fmin for melspectrogram, e.g., 1",
 )
 
 parser.add_argument(
@@ -112,7 +112,7 @@ parser.add_argument(
     action="store",
     default=None,
     dest="mel_fmax",
-    help="Set directory to load meta data, e.g., None",
+    help="Set fmax for melspectrogram, e.g., None",
 )
 
 parser.add_argument(
@@ -120,7 +120,7 @@ parser.add_argument(
     action="store",
     default="Vits",
     dest="run_name",
-    help="Set directory to load meta data, e.g., GlowTTS",
+    help="Set directory to store checkpoint, e.g., 'VITS'",
 )
 
 parser.add_argument(
@@ -128,7 +128,7 @@ parser.add_argument(
     action="store",
     default=16,
     dest="batch_size",
-    help="Set directory to load meta data, e.g., 8",
+    help="Set batch size, e.g., 8",
 )
 
 parser.add_argument(
@@ -136,7 +136,7 @@ parser.add_argument(
     action="store",
     default=8,
     dest="eval_batch_size",
-    help="Set directory to load meta data, e.g., 8",
+    help="Set evaluation batch size, e.g., 8",
 )
 
 parser.add_argument(
@@ -144,7 +144,7 @@ parser.add_argument(
     action="store",
     default=1500,
     dest="epochs",
-    help="Set directory to load meta data, e.g., 100",
+    help="Set number of epochs, e.g., 10000",
 )
 
 parser.add_argument(
@@ -152,7 +152,7 @@ parser.add_argument(
     action="store",
     default="",
     dest="pretrained_path",
-    help='Set directory to load meta data, e.g., "Vits_path"',
+    help='Set directory to load pretrained model, e.g., "VITS"',
 )
 
 parser.add_argument(
@@ -166,7 +166,7 @@ parser.add_argument(
 parser.add_argument(
     "--num_eval_loader_workers",
     action="store",
-    default=16,
+    default=8,
     dest="num_eval_loader_workers",
     help="Set number of CPUs you have, e.g., 16",
 )
