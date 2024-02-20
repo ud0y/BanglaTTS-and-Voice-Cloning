@@ -43,3 +43,8 @@ To get started follow below instructions,
     gdown 1QLCfoO_2In5AIJtMzvVEmB-_TnUwtSUb
     unzip dataset.zip
     ```
+
+
+<h2> <i>Update</i> </h2>
+
+**EDA** -- [Google Sheet](https://docs.google.com/spreadsheets/d/1dEBrH9h0dPXl7ePmS5y18KAhokVU37q9J8Y9ZT6g15w/edit#gid=1353322539)
