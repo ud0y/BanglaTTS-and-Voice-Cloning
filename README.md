@@ -1,15 +1,3 @@
-<style>
-  /* Define CSS for list items */
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  li::before {
-    content: attr(data-emoji); /* Use content attribute to display emoji */
-    margin-right: 5px; /* Add some spacing between emoji and text */
-  }
-</style>
-
 This repo contains training files and commands
 
 The models I want to train:
@@ -17,26 +5,26 @@ The models I want to train:
 <ol>
 <li> VITS 
     <ul>
-    <li data-emoji="⭕"> With Phoneme </li>
-    <li data-emoji="✅"> Without Phoneme</li>
+    <li> With Phoneme </li>
+    <li> <strike> Without Phoneme </strike> ✅ </li>
     </ul>
 </li>
 <li> GlowTTS + HiFiGAN++ 
     <ul>
-    <li data-emoji="⭕"> With Phoneme </li>
-    <li data-emoji="⭕"> Without Phoneme </li>
+    <li> With Phoneme </li>
+    <li> Without Phoneme </li>
     </ul>
 </li>
 <li> Tacotron 2 
     <ul>
-    <li data-emoji="⭕"> With Phoneme </li>
-    <li data-emoji="⭕"> Without Phoneme </li>
+    <li> With Phoneme </li>
+    <li> Without Phoneme </li>
     </ul>
 </li>
 <li> FastSpeech
     <ul>
-    <li data-emoji="⭕"> With Phoneme </li>
-    <li data-emoji="⭕"> Without Phoneme </li>
+    <li> With Phoneme </li>
+    <li> Without Phoneme </li>
     </ul>
 </li>
 </ol>
@@ -85,12 +73,12 @@ To get started follow below instructions,
 
 <h2>To Do</h2>
 <ul>
-<li data-emoji="✅">Audio Duration</li>
-<li data-emoji="✅">Character list</li>
-<li data-emoji="✅">Phoneme list</li>
-<li data-emoji="✅">Character Frequency</li>
-<li data-emoji="✅">Word Frequency</li>
-<li data-emoji="✅">Word to Phoneme</li>
-<li data-emoji="⛔">Character to Phoneme</li>
-<li data-emoji="✅">Sentence to Phoneme</li>
+<li>Audio Duration ✅</li>
+<li>Character list ✅</li>
+<li>Phoneme list ✅</li>
+<li>Character Frequency ✅</li>
+<li>Word Frequency ✅</li>
+<li>Word to Phoneme ✅</li>
+<li>Character to Phoneme</li>
+<li>Sentence to Phoneme ✅</li>
 </ol>
