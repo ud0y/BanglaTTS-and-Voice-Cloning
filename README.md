@@ -1,3 +1,15 @@
+<style>
+  /* Define CSS for list items */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li::before {
+    content: attr(data-emoji); /* Use content attribute to display emoji */
+    margin-right: 5px; /* Add some spacing between emoji and text */
+  }
+</style>
+
 This repo contains training files and commands
 
 The models I want to train:
@@ -5,26 +17,26 @@ The models I want to train:
 <ol>
 <li> VITS 
     <ul>
-    <li> With Phoneme </li>
-    <li> <strike> Without Phoneme </strike> ✅ </li>
+    <li data-emoji="⭕"> With Phoneme </li>
+    <li data-emoji="✅"> Without Phoneme</li>
     </ul>
 </li>
 <li> GlowTTS + HiFiGAN++ 
     <ul>
-    <li> With Phoneme </li>
-    <li> Without Phoneme </li>
+    <li data-emoji="⭕"> With Phoneme </li>
+    <li data-emoji="⭕"> Without Phoneme </li>
     </ul>
 </li>
 <li> Tacotron 2 
     <ul>
-    <li> With Phoneme </li>
-    <li> Without Phoneme </li>
+    <li data-emoji="⭕"> With Phoneme </li>
+    <li data-emoji="⭕"> Without Phoneme </li>
     </ul>
 </li>
 <li> FastSpeech
     <ul>
-    <li> With Phoneme </li>
-    <li> Without Phoneme </li>
+    <li data-emoji="⭕"> With Phoneme </li>
+    <li data-emoji="⭕"> Without Phoneme </li>
     </ul>
 </li>
 </ol>
@@ -70,3 +82,15 @@ To get started follow below instructions,
 <h2> <i>Update</i> </h2>
 
 **EDA** -- [Google Sheet](https://docs.google.com/spreadsheets/d/1dEBrH9h0dPXl7ePmS5y18KAhokVU37q9J8Y9ZT6g15w/edit#gid=1353322539)
+
+<h2>To Do</h2>
+<ul>
+<li data-emoji="✅">Audio Duration</li>
+<li data-emoji="✅">Character list</li>
+<li data-emoji="✅">Phoneme list</li>
+<li data-emoji="✅">Character Frequency</li>
+<li data-emoji="✅">Word Frequency</li>
+<li data-emoji="✅">Word to Phoneme</li>
+<li data-emoji="⛔">Character to Phoneme</li>
+<li data-emoji="✅">Sentence to Phoneme</li>
+</ol>
