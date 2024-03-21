@@ -12,7 +12,7 @@ The models I want to train:
 <li> GlowTTS + HiFiGAN++ 
     <ul>
     <li> With Phoneme </li>
-    <li> Without Phoneme </li>
+    <li> <strike> Without Phoneme </strike> ✅ </li>
     </ul>
 </li>
 <li> Tacotron 2 
